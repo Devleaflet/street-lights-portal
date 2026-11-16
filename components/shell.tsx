@@ -205,7 +205,7 @@ export function AppShell({ roles, task, children }: { roles: Role[]; task?: bool
             </div>
           ))}
         </nav>
-        {me.role === "admin" && (
+        {/* {me.role === "admin" && (
           <div className="mb-3 rounded-xl bg-canvas p-3">
             <p className="text-[13px] font-semibold">Firebase free plan</p>
             <p className="text-xs text-mute">Today&apos;s reads: 38% of daily limit</p>
@@ -213,7 +213,7 @@ export function AppShell({ roles, task, children }: { roles: Role[]; task?: bool
               <div className="h-full w-[38%] rounded-full bg-ok" />
             </div>
           </div>
-        )}
+        )} */}
         <div className="flex items-center gap-3 rounded-xl border border-line p-2.5">
           <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-navy-900 text-xs font-bold text-brand">{initials(me.name)}</span>
           <span className="min-w-0 flex-1 leading-tight">
